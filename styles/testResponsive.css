@@ -1,0 +1,183 @@
+/*all responcive code*/
+:root{
+    --main-color:rgb(229, 9, 20); /* Color For Buttons And Important parts */
+    --background-color:#000; /* Color for pages Background   */
+    --secondary-background: #211e1e; /* Color for navs and cards background */
+    --text-color:rgb(255,255,255); /* color for all text in website */
+}
+
+
+.rave-padding-left{
+    padding-left: 57px;
+}
+
+.rave-padding-right{
+    padding-right: 57px;
+}
+
+.rave-navbar{
+    /* background: var(--background-color); */
+    position: fixed;
+    width: 100vw;
+    z-index: 1000;
+    transition: background 0.2s linear;
+}
+
+.rav-row{
+    width: 100%;
+    display: flex;
+    justify-content: space-between !important;
+    align-items: center;
+}
+
+.rave-row .left{
+    width: max-content
+}
+.rave-row .right{
+    width: max-content
+}
+
+.navbar-brand img{
+    width: 50px;
+    height: 50px;
+}
+
+.rave-dropdown-box{
+    display: none;
+}
+
+.rave-dropdown{
+    background-color: transparent;
+    color: var(--main-color);
+    border: none;
+    font-size: 9px !important;
+}
+
+.rave-dropdown-box .dropdown-menu{
+    background-color: rgba(0, 0, 0, 0.797);
+    font-size: 9px !important;
+    color: var(--main-color) !important;
+    margin-left: -80px;
+    border-top: 3px solid var(--main-color);
+    margin-top: 30px;
+}
+
+.rave-dropdown-box .dropdown-menu .dropdown-item{
+    color: var(--main-color);
+    text-align: center;
+    width: 200px;
+    font-size: 15px;
+    padding: 10px 20px;
+}
+
+.rave-dropdown-box .dropdown-menu .dropdown-item:hover{
+    background: var(--main-color);
+    color: var(--background-color);
+}
+
+.rave-nav{
+    display: block;
+    align-items: center;   
+}
+
+.rave-nav button{
+    background-color: transparent;
+    color: rgba(255, 255, 255, 0.619);
+    border: none;
+    font-size: 13px;
+}
+
+.rave-nav button:hover{
+    color: var(--text-color);
+}
+
+i{
+    font-size: 20px;
+    color: var(--text-color);
+    padding: 5px 20px;
+    cursor: pointer;
+}
+
+.rave-profile{
+    margin-left: 5px;
+    cursor: pointer;
+}
+
+
+
+
+
+@media (max-width:767.48px) {
+    .navbar-brand img{
+        width: 43px !important;
+        height: 43px !important;
+    }
+
+    .rave-padding-left{
+        padding-left: 10px !important;
+    }
+    
+    .rave-padding-right{
+        padding-right: 10px !important;
+    }
+
+    .navbar{
+        padding-top: unset !important;
+        padding-bottom: unset !important;
+    }
+
+    .rave-dropdown-box{
+        display: block !important;
+    }
+
+    .rave-nav{
+        display: none !important;   
+    }
+
+    i{
+        font-size: 12px;
+        cursor: pointer;
+        padding: 5px !important;
+    }
+
+    .rave-profile{
+        margin-left: 5px !important;
+    }
+
+
+    /*video-start*/
+    .rave-home-video .content .left{
+        margin-left: 25px !important;
+    }
+
+    .rave-home-video .content .left img{
+        margin-top: 90px !important;
+        width: 200px;
+    }
+
+    button{
+        font-size: 10px !important;
+        width: max-content !important;
+        opacity: 0.8;
+    }
+    /*video-end*/
+
+
+    /*card-start*/
+    .card{
+        width: 190px; 
+    }
+
+    .card-icon{
+        font-size: 17px !important;
+    }
+
+    .slider1{
+        top: 390px;
+        margin-left: 0px;
+    }
+
+    .card-body{
+        top: 80px;
+    }
+}

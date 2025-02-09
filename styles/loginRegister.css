@@ -1,0 +1,127 @@
+:root{
+    --main-color:rgb(229, 9, 20); /* Color For Buttons And Important parts */
+    --background-color:#000; /* Color for pages Background   */
+    --secondary-background: #454a52; /* Color for navs and cards background */
+    --secondary-background-rgb: rgba(0, 0, 0, 0.7);
+    --third-background-rgb: rgb(69, 74, 82,0.7);
+    --text-color:rgb(255,255,255); /* color for all text in website */
+}
+
+ul{
+    list-style-type: none;
+}
+
+*{
+    font-family: "Segoe UI", serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    font-size: 16px;
+    line-height: 1.6;
+    background-image: url(../assets/images/background.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    margin: 10px 0;
+}
+
+h1 {
+    font-weight: 800;
+    font-size: 2.986rem;
+}
+
+h2 {
+    font-weight: 700;
+    font-size: 2.488rem;
+}
+
+h3 {
+    font-weight: 600;
+    font-size: 2.074rem;
+}
+
+h4 {
+    font-weight: 500;
+    font-size: 1.728rem;
+}
+
+h5 {
+    font-weight: 400;
+    font-size: 1.44rem;
+}
+
+h6 {
+    font-weight: 300;
+    font-size: 1.2rem;
+}
+
+p {
+    font-size: 1rem;
+    margin: 10px 0;
+    font-weight: 200;
+}
+
+.small {
+    font-size: 0.8rem;
+    font-weight: 100;
+}
+
+
+.container {
+    width: 100%;
+    margin: 0 auto;
+    padding: 0 40px;
+}
+
+.form-Login{
+
+    width: 50vh;
+    height: 70vh;
+
+    background-color: var(--secondary-background-rgb);
+
+    color: var(--text-color);
+
+
+    
+}
+.btn{
+
+    background-color: var(--main-color);
+    color: var(--text-color);
+}
+
+.container-form{
+    height: 100vh;
+    
+}
+.form-control{
+    background-color: var(--third-background-rgb);
+    color: var(--text-color);
+    
+}
+.no-underline{
+    color: var(--text-color);
+    text-decoration: none; 
+
+}
+
+.overlay{
+    background-color: rgb(0,0,0,0.7);
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+ }
+
+
+.footer-section{
+
+    background-color:var(--background-color);
+    display: flex;
+    flex-direction: column;
+    border-top: 1px solid var(--main-color);
+ }
